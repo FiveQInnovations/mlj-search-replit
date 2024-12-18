@@ -29,22 +29,36 @@ def generate_blog_post(query, sermon_chunks):
     # Combine all sermon excerpts
     combined_text = "\n\n".join([chunk['text'] for chunk in sermon_chunks])
     
+    # Prepare excerpts with source information
+    excerpts_with_sources = []
+    for chunk in sermon_chunks:
+        excerpts_with_sources.append({
+            'text': chunk['text'],
+            'source': chunk['document_name'],
+            'url': chunk['document_metadata'].get('source_url', '#')
+        })
+    
     # Create prompt for OpenAI
-    prompt = f"""As an expert on Martin Lloyd-Jones' teachings, write a detailed blog post about the following topic:
+    prompt = f"""As an expert on Martin Lloyd-Jones' teachings, write a detailed and comprehensive blog post about the following topic:
     
 Query: {query}
 
+When quoting from the provided excerpts, include the source link inline using markdown, following this format:
+> "Quote text" - From [Sermon Title](source_url)
+
 Based on these sermon excerpts:
-{combined_text}
+{str(excerpts_with_sources)}
 
 Please write a comprehensive blog post that:
-1. Explains MLJ's perspective on this topic
-2. Includes relevant quotes from the provided excerpts
-3. Provides theological context and practical applications
-4. Maintains MLJ's pastoral and doctrinal emphasis
+1. Provides deep theological analysis with extensive context (aim for detailed paragraphs of 4-6 sentences each)
+2. Uses direct quotes from MLJ with their source links inline
+3. Explains complex theological concepts thoroughly
+4. Maintains MLJ's pastoral and doctrinal emphasis while exploring practical implications
 5. Structures the content with clear headings and subheadings
+6. Concludes with practical applications
 
-Format the response in Markdown with proper headings, quotes, and sections."""
+Format the response in Markdown with proper headings, quotes (with source links), and sections.
+Ensure paragraphs are substantial and detailed, thoroughly exploring each point."""
 
     try:
         # Generate blog post using OpenAI
