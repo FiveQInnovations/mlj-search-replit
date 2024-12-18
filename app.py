@@ -30,21 +30,21 @@ def generate_blog_post(query, sermon_chunks):
     combined_text = "\n\n".join([chunk['text'] for chunk in sermon_chunks])
     
     # Create prompt for OpenAI
-    prompt = f"""Write a detailed theological analysis of MLJ's teaching on the following topic:
+    prompt = f"""As an expert on Martin Lloyd-Jones' teachings, write a detailed blog post about the following topic:
     
 Query: {query}
 
 Based on these sermon excerpts:
 {combined_text}
 
-Create a blog post that:
-1. Directly analyzes the theological principles MLJ presents
-2. Uses specific quotes to illustrate key points
-3. Shows how this connects to his broader theological framework
-4. Highlights practical implications for Christian living
-5. Uses clear headings and subheadings for structure
+Please write a comprehensive blog post that:
+1. Explains MLJ's perspective on this topic
+2. Includes relevant quotes from the provided excerpts
+3. Provides theological context and practical applications
+4. Maintains MLJ's pastoral and doctrinal emphasis
+5. Structures the content with clear headings and subheadings
 
-Format the response in Markdown."""
+Format the response in Markdown with proper headings, quotes, and sections."""
 
     try:
         # Generate blog post using OpenAI
@@ -73,14 +73,7 @@ def format_api_response(response_data):
         text = chunk['text'].strip()
         doc_name = chunk['document_name']
         source_url = chunk['document_metadata'].get('source_url', '#')
-        mp3_url = chunk['document_metadata'].get('mp3_url', None)
-        
-        # Create header with links
-        header = f"## From [{doc_name}]({source_url})"
-        if mp3_url:
-            header += f" [🎧 Listen]({mp3_url})"
-        
-        formatted_excerpts += f"{header}\n\n{text}\n\n---\n\n"
+        formatted_excerpts += f"## From [{doc_name}]({source_url})\n\n{text}\n\n---\n\n"
     
     return formatted_excerpts, response_data['scored_chunks']
 
