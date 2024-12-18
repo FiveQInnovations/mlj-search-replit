@@ -72,7 +72,8 @@ def format_api_response(response_data):
     for chunk in response_data['scored_chunks']:
         text = chunk['text'].strip()
         doc_name = chunk['document_name']
-        formatted_excerpts += f"## From {doc_name}\n\n{text}\n\n---\n\n"
+        source_url = chunk['document_metadata'].get('source_url', '#')
+        formatted_excerpts += f"## From [{doc_name}]({source_url})\n\n{text}\n\n---\n\n"
     
     return formatted_excerpts, response_data['scored_chunks']
 
