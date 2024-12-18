@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="mb-4">
+            <a href="/" class="btn btn-outline-secondary">&larr; New Search</a>
+        </div>
+
+        {% if error %}
+        <div class="alert alert-danger" role="alert">
+            {{ error }}
+        </div>
+        {% endif %}
+
+        {% if query %}
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">Search Query: "{{ query }}"</h5>
+            </div>
+        </div>
+        {% endif %}
+
+        {% if results %}
+        <div class="card">
+            <div class="card-body">
+                {{ results }}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
