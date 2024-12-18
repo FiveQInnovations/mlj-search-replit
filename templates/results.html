@@ -3,8 +3,11 @@
 {% block content %}
 <div class="row">
     <div class="col-12">
-        <div class="mb-4">
+        <div class="mb-4 d-flex justify-content-between align-items-center">
             <a href="/" class="btn btn-outline-secondary">&larr; New Search</a>
+            {% if query %}
+            <span class="text-muted">Search Query: "{{ query }}"</span>
+            {% endif %}
         </div>
 
         {% if error %}
@@ -13,21 +16,46 @@
         </div>
         {% endif %}
 
-        {% if query %}
-        <div class="card mb-4">
-            <div class="card-header">
-                <h5 class="mb-0">Search Query: "{{ query }}"</h5>
-            </div>
-        </div>
-        {% endif %}
-
         {% if results %}
         <div class="card">
-            <div class="card-body">
+            <div class="card-body article-content">
                 {{ results }}
             </div>
         </div>
         {% endif %}
     </div>
 </div>
+
+<style>
+.article-content {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.article-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.article-content h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.article-content blockquote {
+    border-left: 4px solid var(--bs-primary);
+    padding-left: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-style: italic;
+    background-color: rgba(var(--bs-primary-rgb), 0.1);
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.article-content hr {
+    margin: 2rem 0;
+}
+</style>
 {% endblock %}
