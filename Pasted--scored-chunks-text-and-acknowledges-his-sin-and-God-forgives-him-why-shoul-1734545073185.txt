@@ -1,0 +1,69 @@
+{
+  "scored_chunks": [
+    {
+      "text": "and acknowledges his sin and God forgives him, why should we listen to justification by faith only? Well, I've already answered your question. If you are not justified by faith only, you are still in this present evil world. You're under the wrath of God. You're under condemnation. Mankind has never known anything about these terms. The 20th century is no different from any other century. Mankind has never been interested in these doctrines. I know it hasn't. That's because it's been sinful. But the moment a man becomes a Christian, I say there is nothing so precious to him as this very doctrine. And the business of preaching is to expound and to explain this particular doctrine to you. And that is what I'm doing this evening. Look here, says Paul. If you're not clear about this, you're lost. I don't care. Even if a Peter goes wrong about it, I must withstand him to the face. I must correct him. I must say you're wrong. Withdraw it. And he did withdraw it. This, I say, is absolutely vital and essential to Salvation. We must be clear about this. And as it is, as I value your immortal and eternal soul, that I'm holding the whole matter before you. How does one become a Christian? That's the question. How does one become an inheritor of these blessings of God? I answer again, it is justification by faith only. What's it mean? I've got two divisions only this evening. Listen, the first is negative. The second is positive. I'm going to give you headings. I'm going to be as simple and as plain and as explicit as I can. I care nothing about preaching nor anything else, as long as I can make this truth plain. Because your eternal destiny depends on your understanding what I'm talking about tonight. Christ has died in vain as far as you are concerned, unless you realize its justification by faith only. All this glorious activity of the Son of God, all this pouring out of the heart of the eternal, all the miracles and the marvels, might as well not have taken place. Unless you are clear about the doctrine of justification",
+      "score": 0.1,
+      "document_id": "e1e54f72-2680-4b02-9649-d844f535b187",
+      "document_name": "No Other Gospel.docx",
+      "document_metadata": {
+        "folder": "MLJ Transcripts",
+        "created_at": "2023-12-16T14:36:46.058000+00:00",
+        "source_url": "https://docs.google.com/document/d/1ffzGqEXUuL6Y3ueSOOh9_Fo7IVmB8uRBhftsjGJMSYE/edit?usp=drivesdk",
+        "external_id": "1ffzGqEXUuL6Y3ueSOOh9_Fo7IVmB8uRBhftsjGJMSYE",
+        "source_type": "google_drive"
+      }
+    },
+    {
+      "text": "perfect in the righteousness of Christ. And he pronounces that he has nothing against us. Can't you see that that is already judgment? Our judgment has already taken place there. God has already arrived at the fundamental decision with respect to us. When God is the judge, eternal makes this pronouncement and promulgation in the court, that he regards us as righteous. Well, he has said so. And God never goes back on his word. It's final. We are therefore justified. And therefore, I say, as our Lord puts it, we have passed from death, from the whole realm of death. We've passed away from that into life, so that we have already been judged, and therefore we shall never come under condemnation. You see, my friends, what a tremendous thing justification is. When God justifies men, he is really making a final pronouncement upon him. That man who is justified is a man who is saved and saved to all eternity. No man says, our lord shall be able to pluck them out of my hand. It is God the justifier. Who is he that condemneth? Says Paul in chapter eight. That's the argument. If it's God who justifies, who can condemn, who shall bring anything, any charge against God's elect in the light of the fact that it's God that justifies justification is the most momentous, the most tremendous thing we can ever grasp or ever experience. And don't you see now why Martin Luther got so excited when he found it? Don't you see now how the whole protestant reformation came out of this? No longer a matter of works, no longer a matter of penances. No longer a matter of confessing to priests, and priests doing this and that no longer a question of transubstantiation and being given the very body of Christ to build us up and to make us worthy of forgiveness. All that is abolished once and forever. No longer a question of uncertainty that we may, after all, not be saved. And we need the church always and need the church even after we are dead, because we're in purgatory and somebody's got to go on praying for us and lighting candles for us and",
+      "score": 0.1,
+      "document_id": "d7cd17cb-7850-428a-a503-162567cd5ac5",
+      "document_name": "Justified by God.docx",
+      "document_metadata": {
+        "folder": "MLJ Transcripts",
+        "created_at": "2023-12-15T10:52:24.617000+00:00",
+        "source_url": "https://docs.google.com/document/d/1PmEwxq8UqYcyyfWCdRAn3QvJEW2GmOs2WLVyf2Y2k7g/edit?usp=drivesdk",
+        "external_id": "1PmEwxq8UqYcyyfWCdRAn3QvJEW2GmOs2WLVyf2Y2k7g",
+        "source_type": "google_drive"
+      }
+    },
+    {
+      "text": "view that you may hold? Is this one. Is this view humbling to me, glorifying to God? If it is, it's probably right. You won't go far wrong if whatever view you are holding is glorifying to God, humbling to men. But if your view seems to glorify you and to query God, well, there's no need to argue or to go into details. It's wrong. It's a very good universal rule, that. And my last word of all is, again, a word primarily to preachers. Indeed, it's a word to everybody, in the sense that if ever you are putting the gospel to another person, you've got a very good test as to whether you're preaching the gospel in the right way. What's that? Well, let me put it like this to you. If your presentation of the gospel does not expose it to the charge of antinomianism, you are probably not putting it correctly. What do I mean by that? Just this. The gospel, you see, comes as this free gift of God, irrespective of what men does. Now, the moment you say a thing like that, you are liable to provoke somebody to say, well, if that is so, it doesn't matter what I do. The apostle takes up that argument more than once in this great epistle. What then he says at the beginning of chapter six, shall we do evil, commit sin? That grace may abound. She's just been saying, the more sin abounded. Where sin abounded, grace. That's much more abound. Very well said, someone. This is a marvelous doctrine, this. Go and get drunk. Do what you like. The grace of God will put your antinomianism. Now, this doctrine of the scriptures, this justification by faith only this free grace of God in salvation is always exposed to that charge of antinomianism, Paul was charged with it. He said, you know, some people say that that's what I'm preaching. Paul's preaching was charged with antinomianism. The Jews especially said, now they said, this man, he tells us that the law can't save us very well. What he's really saying to people is this sin, as much as you like, the more you sin, the more the grace of God will fall down upon you. That's what he's",
+      "score": 0.1,
+      "document_id": "64b624f9-1099-4c5e-ba73-821aa7626ab6",
+      "document_name": "The Faith of God Without Effect?.docx",
+      "document_metadata": {
+        "folder": "MLJ Transcripts",
+        "created_at": "2023-12-15T10:55:37.191000+00:00",
+        "source_url": "https://docs.google.com/document/d/1lgVhBjfWVNKciZCGINT36gKVFdXwM4baLGel0banO7o/edit?usp=drivesdk",
+        "external_id": "1lgVhBjfWVNKciZCGINT36gKVFdXwM4baLGel0banO7o",
+        "source_type": "google_drive"
+      }
+    },
+    {
+      "text": "live, he said. And Spurgeon did look and did live, and suddenly came out into the liberty. It's the story, I say, that's at the back of the experience of all the greatest saints of God throughout the 80s. But quite apart from all this, there is a sense in which this is the most glorious bit of the good news itself. It's all glorious, but in a sense, from our sinful standpoint, it is practically the most glorious of them all. Well, what is it? What am I talking about? I am talking about the doctrine of justification by faith only, which is the doctrine that Paul had preached to these Galatians, which is the doctrine that the apostle Peter had preached. But you see, when these Jews came down from Jerusalem to Antioch, they persuaded him and they frightened him. And a spirit of fear, he began to dissemble. And even Barnabas was shaken and carried away with their dissimulation. But the apostle says, knowing Peter, he said to Peter, knowing that a man is not justified by the works of the law, but by the faith of Jesus Christ, even we have believed in Jesus Christ, that we might be justified by the faith of Christ. That's what he had to tell Peter and put him right. The doctrine of justification by faith only. The great doctrine taught in the whole of this epistle, the great doctrine that is the key to the epistle to the Romans. That's what I'm talking about. How are these great boons and blessings of the gospel to be obtained? The answer is justification by faith only. But I hear somebody saying, as is said so often at the present time, what do these terms mean? Don't you realize you're in the mid 20th century? People don't know what justification is, not interested in it. What do these terms matter? These terms were all right while people haven't got televisions to look at. And then had a bit of an outing by going to a church, had something to do, you see, by going to church. But nowadays, rarely, we can't be bothered with these old terms, what's it matter? As long as a man believes in the love of God and",
+      "score": 0.09090909090909091,
+      "document_id": "e1e54f72-2680-4b02-9649-d844f535b187",
+      "document_name": "No Other Gospel.docx",
+      "document_metadata": {
+        "folder": "MLJ Transcripts",
+        "created_at": "2023-12-16T14:36:46.058000+00:00",
+        "source_url": "https://docs.google.com/document/d/1ffzGqEXUuL6Y3ueSOOh9_Fo7IVmB8uRBhftsjGJMSYE/edit?usp=drivesdk",
+        "external_id": "1ffzGqEXUuL6Y3ueSOOh9_Fo7IVmB8uRBhftsjGJMSYE",
+        "source_type": "google_drive"
+      }
+    },
+    {
+      "text": "Says Paul in chapter eight. That's the argument. If it's God who justifies, who can condemn, who shall bring anything, any charge against God's elect in the light of the fact that it's God that justifies justification is the most momentous, the most tremendous thing we can ever grasp or ever experience. And don't you see now why Martin Luther got so excited when he found it? Don't you see now how the whole protestant reformation came out of this? No longer a matter of works, no longer a matter of penances. No longer a matter of confessing to priests, and priests doing this and that no longer a question of transubstantiation and being given the very body of Christ to build us up and to make us worthy of forgiveness. All that is abolished once and forever. No longer a question of uncertainty that we may, after all, not be saved. And we need the church always and need the church even after we are dead, because we're in purgatory and somebody's got to go on praying for us and lighting candles for us and praying to the saints to shorten our time in purgatory. All that's abolished and what abolishes it? Well, his understanding of justification. Justification is final. Justification means that God makes the pronouncement. And the pronouncement that he makes is that he has finally forgiven us and regards us as righteous in his most holy sight. There is nothing that you and I can ever know in this world that is in any way comparable to the knowledge that God has justified us and that we are justified in the sight of God. Oh, says someone. How may I know that? Well, I've already answered you in verses one and two. Here it is again. Peace with God. Have you got it? Peace with God. Knowing that you are forgiven, able to answer the accusations within of conscience and everything else, and the accusations from without standing in his grace and knowing him as your father, seeing something of that glory which is awaiting you and rejoicing in anticipation, being able to laugh at the world and its gaudy treasures and its",
+      "score": 0.09090909090909091,
+      "document_id": "d7cd17cb-7850-428a-a503-162567cd5ac5",
+      "document_name": "Justified by God.docx",
+      "document_metadata": {
+        "folder": "MLJ Transcripts",
+        "created_at": "2023-12-15T10:52:24.617000+00:00",
+        "source_url": "https://docs.google.com/document/d/1PmEwxq8UqYcyyfWCdRAn3QvJEW2GmOs2WLVyf2Y2k7g/edit?usp=drivesdk",
+        "external_id": "1PmEwxq8UqYcyyfWCdRAn3QvJEW2GmOs2WLVyf2Y2k7g",
+        "source_type": "google_drive"
+      }
+    }
+  ]
+}
