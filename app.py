@@ -16,8 +16,39 @@ app.secret_key = os.environ.get("FLASK_SECRET_KEY", "mlj_sermons_secret_key")
 RAGIE_API_URL = "https://api.ragie.ai/retrievals"
 RAGIE_API_TOKEN = "tnt_BPBxTqQudZm_yEfynu5h53B0xDQyRYnWUmSlXZMTO3JNxXyk3tzduRg"
 
-def format_sermon_results(response_data):
-    """Format the sermon results into markdown"""
+def highlight_relevant_content(text, query):
+    """Add bold markdown to relevant phrases"""
+    # Split query into words for matching
+    query_words = query.lower().split()
+
+    # Split text into sentences
+    sentences = text.replace(". ", ".\n").split("\n")
+    highlighted_sentences = []
+
+    for sentence in sentences:
+        # Check if sentence contains any query words
+        if any(word in sentence.lower() for word in query_words):
+            # Add bold markdown around the sentence
+            highlighted_sentences.append(f"**{sentence.strip()}**")
+        else:
+            highlighted_sentences.append(sentence.strip())
+
+    return " ".join(highlighted_sentences)
+
+def truncate_text(text, max_length=300):
+    """Truncate text to the nearest sentence boundary within max_length"""
+    if len(text) <= max_length:
+        return text
+
+    truncated = text[:max_length]
+    last_period = truncated.rfind('.')
+
+    if last_period > 0:
+        return text[:last_period + 1]
+    return truncated + "..."
+
+def format_sermon_results(response_data, query):
+    """Format the sermon results into markdown with shorter sections and highlights"""
     if not response_data or 'scored_chunks' not in response_data:
         return "No sermons found for this topic."
 
@@ -32,12 +63,15 @@ def format_sermon_results(response_data):
                 'url': chunk['document_metadata'].get('source_url', '#'),
                 'excerpts': []
             }
-        sermons[doc_name]['excerpts'].append(chunk['text'].strip())
+        # Truncate and highlight the text
+        truncated_text = truncate_text(chunk['text'].strip())
+        highlighted_text = highlight_relevant_content(truncated_text, query)
+        sermons[doc_name]['excerpts'].append(highlighted_text)
 
     # Format each sermon's content
     for doc_name, sermon in sermons.items():
         formatted_content += f"## [{doc_name}]({sermon['url']})\n\n"
-        for excerpt in sermon['excerpts']:
+        for excerpt in sermon['excerpts'][:2]:  # Limit to 2 excerpts per sermon
             formatted_content += f"{excerpt}\n\n"
         formatted_content += "---\n\n"
 
@@ -62,16 +96,16 @@ def search():
 
         payload = {
             "query": query,
-            "top_k": 12,
+            "top_k": 8,  # Reduced from 12 to show fewer, more relevant results
             "rerank": True,
-            "max_chunks_per_document": 3
+            "max_chunks_per_document": 2  # Reduced from 3 to show fewer excerpts
         }
 
         response = requests.post(RAGIE_API_URL, headers=headers, json=payload)
         response.raise_for_status()
 
         results = response.json()
-        formatted_content = format_sermon_results(results)
+        formatted_content = format_sermon_results(results, query)
         html_results = Markup(markdown.markdown(formatted_content, extensions=['extra']))
 
         return render_template('results.html', 
