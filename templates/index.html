@@ -5,21 +5,21 @@
     <div class="col-md-8 col-lg-6">
         <div class="card">
             <div class="card-body">
-                <h1 class="card-title text-center mb-4">Generate MLJ Blog Posts</h1>
+                <h1 class="card-title text-center mb-4">MLJ Sermon Search</h1>
                 <form action="{{ url_for('search') }}" method="POST" id="searchForm">
                     <div class="mb-3">
-                        <label for="query" class="form-label">Enter your search query:</label>
+                        <label for="query" class="form-label">Enter a topic to find relevant sermons:</label>
                         <input type="text" 
                                class="form-control" 
                                id="query" 
                                name="query" 
-                               placeholder="Example: What did MLJ say about justification?"
+                               placeholder="Example: justification, sanctification, prayer..."
                                required>
                     </div>
                     <div class="d-grid">
                         <button type="submit" class="btn btn-primary" id="searchButton">
                             <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
-                            Search
+                            Search Sermons
                         </button>
                     </div>
                 </form>
